@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_passpoints_reset"
+        android:title="@string/item_passpoints_reset"
+        android:checkable="false" />
+    <!--<item android:id="@+id/item_upload_from_camera"-->
+        <!--android:title="@string/item_upload_from_camera"-->
+        <!--android:checkable="false" />-->
+</menu>

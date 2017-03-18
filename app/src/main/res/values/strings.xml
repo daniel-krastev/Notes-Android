@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="edit_text_hint">Enter Some Text Here...</string>
+    <string name="button_name_save">Save</string>
+    <string name="toast_cant_save">Unable to save note.Is there sufficient space?</string>
+    <string name="pass_image">Password Image</string>
+    <string name="dialog_title">Create Your Passpoint Sequence.</string>
+    <string name="dialog_msg">Touch four points on the image to set the passpoint sequence. You must click the same points in the future to gain access to your notes.</string>
+    <string name="dialog_buttontext">OK</string>
+    <string name="storing_data">Storing Passpoints...</string>
+    <string name="check_message">Checking Passpoints</string>
+    <string name="acc_denied">Access Denied</string>
+    <string name="button_name_lock">Lock</string>
+    <string name="item_passpoints_reset">Reset Passpoints</string>
+    <string name="no_previous_file">No previously stored message!</string>
+    <string name="item_upload_from_camera">Upload From Camera</string>
+</resources>
