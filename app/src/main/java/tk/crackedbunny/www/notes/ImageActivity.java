@@ -1,5 +1,6 @@
 package tk.crackedbunny.www.notes;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -82,7 +83,7 @@ public class ImageActivity extends AppCompatActivity implements PointCollectorLi
         final AlertDialog dlg = b.create();
         dlg.show();
 
-        AsyncTask<Void, Void, Void> task = new AsyncTask<Void, Void, Void>() {
+        @SuppressLint("StaticFieldLeak") AsyncTask<Void, Void, Void> task = new AsyncTask<Void, Void, Void>() {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
